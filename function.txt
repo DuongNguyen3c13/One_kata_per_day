@@ -8,7 +8,14 @@ Ex: range(0, 100, 10) => return array(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
 round($number, NUMBER_OF_DECIMAL_DIGITS);
 Ex: round(1.33333333, 2) => return 1.33
 
-=================================================================================4
+=================================================================================
 
 count() : length of array
 Ex: count([1,2,3]) => return 3
+
+=================================================================================
+
+substr_count() : Count the number of substring occurrences
+Ex: $text = 'This is a test';
+    echo strlen($text); // 14
+    echo substr_count($text, 'is'); // 2
