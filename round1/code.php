@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 const NUMBER_OF_DECIMAL_DIGITS = 2;
 
