@@ -19,3 +19,17 @@ substr_count() : Count the number of substring occurrences
 Ex: $text = 'This is a test';
     echo strlen($text); // 14
     echo substr_count($text, 'is'); // 2
+
+=================================================================================
+
+string strrev() : reverse the whole string
+Ex: strrev('what the hell'); // lleh eht tahw
+
+=================================================================================
+
+array explode(): Split a string by string
+Ex: $words = explode(' ', 'What the hell'); // word['What', 'the', 'hell']
+
+=================================================================================
+
+string implode(' ', ['What', 'the', 'hell']); // What the hell
