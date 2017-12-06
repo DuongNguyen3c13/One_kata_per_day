@@ -33,3 +33,8 @@ Ex: $words = explode(' ', 'What the hell'); // word['What', 'the', 'hell']
 =================================================================================
 
 string implode(' ', ['What', 'the', 'hell']); // What the hell
+string join(' ', ['What', 'the', 'hell']); // What the hell
+
+=================================================================================
+
+array_map() ???
