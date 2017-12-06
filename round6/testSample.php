@@ -5,5 +5,4 @@ class BalanceTest extends TestCase {
     $this->assertEquals("Left", balance("!??", "?!!"));
     $this->assertEquals("Left", balance("!?!!", "?!?"));
     $this->assertEquals("Balance", balance("!!???!????", "??!!?!!!!!!!"));
-  }
 }
