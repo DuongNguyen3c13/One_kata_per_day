@@ -28,3 +28,21 @@ TRUNCATE table1;
 TRUNCATE table2;
 
 SET FOREIGN_KEY_CHECKS = 1;
+=================================================================================
+
+string strrev() : reverse the whole string
+Ex: strrev('what the hell'); // lleh eht tahw
+
+=================================================================================
+
+array explode(): Split a string by string
+Ex: $words = explode(' ', 'What the hell'); // word['What', 'the', 'hell']
+
+=================================================================================
+
+string implode(' ', ['What', 'the', 'hell']); // What the hell
+string join(' ', ['What', 'the', 'hell']); // What the hell
+
+=================================================================================
+
+array_map() ???
