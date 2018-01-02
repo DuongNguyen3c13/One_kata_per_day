@@ -19,3 +19,12 @@ substr_count() : Count the number of substring occurrences
 Ex: $text = 'This is a test';
     echo strlen($text); // 14
     echo substr_count($text, 'is'); // 2
+
+=================================================================================
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE table1;
+TRUNCATE table2;
+
+SET FOREIGN_KEY_CHECKS = 1;
