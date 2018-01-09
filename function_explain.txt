@@ -1,0 +1,48 @@
+<?php
+
+range() : Create an array containing a range of elements
+Ex: range(0, 100, 10) => return array(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+
+=================================================================================
+
+round($number, NUMBER_OF_DECIMAL_DIGITS);
+Ex: round(1.33333333, 2) => return 1.33
+
+=================================================================================
+
+count() : length of array
+Ex: count([1,2,3]) => return 3
+
+=================================================================================
+
+substr_count() : Count the number of substring occurrences
+Ex: $text = 'This is a test';
+    echo strlen($text); // 14
+    echo substr_count($text, 'is'); // 2
+
+=================================================================================
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE table1;
+TRUNCATE table2;
+
+SET FOREIGN_KEY_CHECKS = 1;
+=================================================================================
+
+string strrev() : reverse the whole string
+Ex: strrev('what the hell'); // lleh eht tahw
+
+=================================================================================
+
+array explode(): Split a string by string
+Ex: $words = explode(' ', 'What the hell'); // word['What', 'the', 'hell']
+
+=================================================================================
+
+string implode(' ', ['What', 'the', 'hell']); // What the hell
+string join(' ', ['What', 'the', 'hell']); // What the hell
+
+=================================================================================
+
+floor(3.14) // return 3
