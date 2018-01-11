@@ -18,6 +18,9 @@ pow()
 sort()
 sqrt()
 trim()
+substr_replace(string, replacement, start)
+bool is_int ( mixed $var )
+bool is_float ( mixed $var)
 
 =================================================================================
 
