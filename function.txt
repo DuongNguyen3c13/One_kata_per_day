@@ -12,7 +12,7 @@ floor(3.14) // return 3
 array_product() ???
 array_map() ???
 array_slice()
-str_split()
+array str_split ( string $string [, int $split_length = 1 ] )
 substr(string, start)
 pow()
 sort()
