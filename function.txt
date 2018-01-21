@@ -21,6 +21,8 @@ trim()
 substr_replace(string, replacement, start)
 bool is_int ( mixed $var )
 bool is_float ( mixed $var)
+strtotime()
+date_diff()
 
 =================================================================================
 
