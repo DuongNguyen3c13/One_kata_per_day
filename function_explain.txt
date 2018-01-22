@@ -46,3 +46,8 @@ string join(' ', ['What', 'the', 'hell']); // What the hell
 =================================================================================
 
 floor(3.14) // return 3
+
+================================================================================
+$datetime1 = date_create($date_1);
+$datetime2 = date_create($date_2);
+$interval = date_diff($datetime1, $datetime2);

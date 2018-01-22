@@ -25,5 +25,9 @@ bool is_float ( mixed $var)
 bool is_numeric(mixed $var)
 string strtr ( string $str , string $from , string $to )
 string strtr ( string $str , array $replace_pairs )
+strtotime()
+date_diff()
+array_sum()
+
 =================================================================================
 
