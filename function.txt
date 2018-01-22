@@ -19,8 +19,11 @@ sort()
 sqrt()
 trim()
 substr_replace(string, replacement, start)
+str_replace(find,replace,string,count)
 bool is_int ( mixed $var )
 bool is_float ( mixed $var)
-
+bool is_numeric(mixed $var)
+string strtr ( string $str , string $from , string $to )
+string strtr ( string $str , array $replace_pairs )
 =================================================================================
 
