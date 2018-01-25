@@ -28,6 +28,11 @@ string strtr ( string $str , array $replace_pairs )
 strtotime()
 date_diff()
 array_sum()
+strtolower()
+strtoupper()
+ucwords()
+eval()
+mixed preg_replace ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
 
 =================================================================================
 
