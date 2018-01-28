@@ -1,14 +1,15 @@
 <?php
 
 range()
-round($number, NUMBER_OF_DECIMAL_DIGITS);
 count()
 substr_count()
 string strrev()
 array explode()
 string implode(' ', ['What', 'the', 'hell']); // What the hell
 string join(' ', ['What', 'the', 'hell']); // What the hell
-floor(3.14) // return 3
+float floor(3.14) // return 3
+float round($number, NUMBER_OF_DECIMAL_DIGITS);
+float ceil ( float $value )
 array_product() ???
 array_map() ???
 array_slice()
