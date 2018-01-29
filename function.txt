@@ -35,6 +35,7 @@ strtoupper()
 ucwords()
 eval()
 mixed preg_replace ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
+float fmod ( float $x , float $y )
 
 =================================================================================
 
