@@ -28,6 +28,6 @@ string strtr ( string $str , array $replace_pairs )
 strtotime()
 date_diff()
 array_sum()
-
+string str_repeat ( string $input , int $multiplier )
 =================================================================================
 
