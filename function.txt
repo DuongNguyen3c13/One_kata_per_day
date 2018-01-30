@@ -1,14 +1,15 @@
 <?php
 
 range()
-round($number, NUMBER_OF_DECIMAL_DIGITS);
 count()
 substr_count()
 string strrev()
 array explode()
 string implode(' ', ['What', 'the', 'hell']); // What the hell
 string join(' ', ['What', 'the', 'hell']); // What the hell
-floor(3.14) // return 3
+float floor(3.14) // return 3
+float round($number, NUMBER_OF_DECIMAL_DIGITS);
+float ceil ( float $value )
 array_product() ???
 array_map() ???
 array_slice()
@@ -20,6 +21,7 @@ sqrt()
 trim()
 substr_replace(string, replacement, start)
 str_replace(find,replace,string,count)
+mixed str_ireplace ( mixed $search , mixed $replace , mixed $subject [, int &$count ] )
 bool is_int ( mixed $var )
 bool is_float ( mixed $var)
 bool is_numeric(mixed $var)
@@ -29,5 +31,12 @@ strtotime()
 date_diff()
 array_sum()
 string str_repeat ( string $input , int $multiplier )
+strtolower()
+strtoupper()
+ucwords()
+eval()
+mixed preg_replace ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
+float fmod ( float $x , float $y )
+
 =================================================================================
 
