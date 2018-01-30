@@ -36,6 +36,10 @@ ucwords()
 eval()
 mixed preg_replace ( mixed $pattern , mixed $replacement , mixed $subject [, int $limit = -1 [, int &$count ]] )
 float fmod ( float $x , float $y )
-
+mixed array_search ( mixed $needle , array $haystack [, bool $strict = FALSE ] )
+array array_reverse ( array $array [, bool $preserve_keys = FALSE ] )
+bool sort ( array &$array [, int $sort_flags = SORT_REGULAR ] )
+mixed min ( array $values )
+mixed max ( array $values )
 =================================================================================
 
