@@ -43,5 +43,7 @@ bool sort ( array &$array [, int $sort_flags = SORT_REGULAR ] )
 mixed min ( array $values )
 mixed max ( array $values )
 array array_count_values ( array $array )
+int ord ( string $string )
+bool ctype_alpha ( string $text )
 =================================================================================
 
